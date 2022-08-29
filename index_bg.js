@@ -351,10 +351,6 @@ export function __wbg_moveTo_fe2d1db84edc26a4() { return logError(function (arg0
     getObject(arg0).moveTo(arg1, arg2);
 }, arguments) };
 
-export function __wbg_clearRect_53506e6d8f66e793() { return logError(function (arg0, arg1, arg2, arg3, arg4) {
-    getObject(arg0).clearRect(arg1, arg2, arg3, arg4);
-}, arguments) };
-
 export function __wbg_fillRect_3b87fb719605af54() { return logError(function (arg0, arg1, arg2, arg3, arg4) {
     getObject(arg0).fillRect(arg1, arg2, arg3, arg4);
 }, arguments) };
@@ -518,7 +514,7 @@ export function __wbindgen_memory() {
     return addHeapObject(ret);
 };
 
-export function __wbindgen_closure_wrapper134() { return logError(function (arg0, arg1, arg2) {
+export function __wbindgen_closure_wrapper133() { return logError(function (arg0, arg1, arg2) {
     const ret = makeMutClosure(arg0, arg1, 7, __wbg_adapter_22);
     return addHeapObject(ret);
 }, arguments) };
